@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>dev maths is funny</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" id='stylesheet' href="design3.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="header-title"> <a href="">Maths the fun Way </a>  <a style="font-size:18px;color: chartreuse;" onclick="design('design1.css');" href="#">Design 1</a>  <a  style="font-size:18px; color: blue;" onclick="design('design2.css');" href="#">Design2</a> </h1>
+            <form class="header-researchbox" method="GET">
+                <input type="text" name="research-input" class="research-input">
+                <input type="submit" value="Search a topic" class="research-submit">
+            </form>
+        </header>
+        <nav class="navbar">
+            <a href="" class="navbar-item active">Home</a>
+            <a href="" class="navbar-item">Online Tutorials</a>
+            <a href="" class="navbar-item">Get a Private tutor</a>
+            <a href="" class="navbar-item">Sign Up</a>
+            <a href="" class="navbar-item">Contact us</a>
+        </nav>
+        <main class="main">
+            <article class="article">
+                <h2 class="article-head">Do you need help with Maths ?</h2>
+                <p class="article-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, dolorum facilis temporibus, minima
+                    officia iure quia debitis, saepe necessitatibus voluptatem impedit nemo nihil. Qui, numquam
+                    necessitatibus soluta facilis ea sequi!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque tenetur, asperiores earum dicta
+                    laudantium repellat necessitatibus animi, beatae a nobis, eligendi voluptatibus accusamus ipsa
+                    culpa
+                    alias saepe molestiae in incidunt.
+                </p>
+            </article>
+            <div class="sidebar sidebar-left">
+                <h2 class="sidebar-title">Go to</h2>
+                <ul>
+                    <li> Year 1 Free Lessons</li>
+                    <li> Year 2 Free Lessons</li>
+                    <li> Year 3 Free Lessons</li>
+                    <li> Year 4 Free Lessons</li>
+                    <li> Year 5 Free Lessons</li>
+                    <li> Year 6 Free Lessons</li>
+                    <li> Year 7 Free Lessons</li>
+                    <li> Year 8 Free Lessons</li>
+                    <li> Year 9 Free Lessons</li>
+                    <li> Year 10 Free Lessons</li>
+                    <li> Year 11 Free Lessons</li>
+                    <li> Year 12 Free Lessons</li>
+                </ul>
+            </div>
+            <div class="sidebar sidebar-right">
+                <h2 class="sidebar-title">Why us</h2>
+                <ul>
+                    <li> Our teachers are available any time</li>
+                    <li> Available on laptop , Tablets and phone</li>
+                    <li> 30 day money back guarantee</li>
+                    <li> Interactive games for an enjoyable learning expérience</li>
+                    <li> Learn at your own pace</li>
+                    <li> Complete curriculum</li>
+                </ul>
+            </div>
+        </main>
+        <footer class="footer">
+            <p>dev maths is funny . <br> Herve Epoh Copyright &copy; <span id="nowYear"></span></p>
+        </footer>
+    </div>
+    <script>
+        function design(design) {
+            document.getElementById('stylesheet').setAttribute('href',design);
+        }
+        let nowDate=new Date();
+        document.getElementById('nowYear').innerHTML=nowDate.getFullYear();
+    </script>
+</body>
+
+</html>

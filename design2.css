@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+html  , body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: rgba(0,0,0,.8);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+.container{
+    padding:50px 80px 0px;
+    margin-left:  auto;
+    margin-right:  auto;
+}
+.header{
+    color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 20px;
+}
+.header-title a{
+    color: blue;
+    text-decoration: none;
+}
+.header-researchbox{
+    background-color: blue;
+    padding: 20px;
+    flex: none;
+    width: 400px;
+}
+.navbar{
+    clear: both;
+    background-color: blue;
+}
+a.navbar-item{
+    display: inline-block;
+    margin: 20px 5px;
+    color: #fff;
+    text-decoration: none;
+}
+.main{
+    background-color: rgb(167, 167, 177);
+}
+.article{
+}
+.sidebar ul{
+   list-style-image: url(/arrow.png);
+}
+.sidebar{
+    display: inline-block;
+    width: 50%;
+}
+.sidebar-left{
+    float: left;
+}
+.sidebar-right{
+    float: right;
+}
+.footer{
+    margin-top: 10px;
+    clear: both;
+    background-color: blue;
+    color: white;
+    padding: 3px 5px ;
+}
